@@ -1,0 +1,116 @@
+main {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.profile-photo-container {
+  background: url(./images/bg-pattern-card.svg);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  border: 6px solid white;
+  position: relative;
+  top: 30%;
+  transform: scale(1.2);
+}
+
+.profile-info {
+  background: hsl(0, 0%, 100%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile-name {
+  position: relative;
+  top: 20px;
+  flex-grow: 2;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-name h1 {
+  font-weight: 700;
+}
+
+.profile-name h2 {
+  align-self: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(227, 10%, 46%);
+  position: relative;
+  top: 10px;
+}
+
+.profile-name .id {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile-stats {
+  flex-grow: 1;
+  position: relative;
+  right: 12px;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  height: 53px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats * {
+  height: calc(50% - 4px);
+  letter-spacing: 2px;
+}
+
+.stats h3 {
+  font-weight: 700;
+}
+
+.stats p {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 550px) {
+  main {
+    width: 300px;
+    position: relative;
+    right: 7px;
+  }
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans";
+  background: url("./images/bg-pattern-top.svg"),
+    url(./images/bg-pattern-bottom.svg);
+  background-color: hsl(185, 75%, 39%);
+  background-position: top -200% left -40px, bottom -173% right -45%;
+  background-repeat: no-repeat;
+  background-size: 50% 80%, 65% 78%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-position: top -280% left -10px, bottom -173% right -230%;
+    background-size: 60% 80%, 85% 78%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-position: top -280% left -10px, bottom -173% right -310%;
+    background-size: 60% 80%, 88% 78%;
+  }
+}
