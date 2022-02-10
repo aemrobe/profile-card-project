@@ -34,7 +34,7 @@ in mobiile design view: my design screenshot/profile-card mobile-view.png
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://aemrobe.github.io/profile-card-project/)
 
 ## My process
 
@@ -57,5 +57,5 @@ i want to focus on flexbox , grid and responsive design.
 ## Author
 
 - Website - [Aemro bekalu](https://www.your-site.com)
-- aemrobe - [@aemrobe](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@Aemro112](https://www.twitter.com/yourusername)
+- aemrobe - [@aemrobe](https://www.frontendmentor.io/profile/aemrobe)
+- Twitter - [@Aemro112](https://www.twitter.com/Aemro112)
