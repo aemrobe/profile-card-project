@@ -33,7 +33,8 @@ in mobiile design view: my design screenshot/profile-card mobile-view.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-by-flexbox-DPU-eVZ-fb
+)
 - Live Site URL: [Add live site URL here](https://aemrobe.github.io/profile-card-project/)
 
 ## My process
